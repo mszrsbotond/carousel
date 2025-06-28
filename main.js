@@ -1,0 +1,1 @@
+const previous = document.querySelector(".previous")

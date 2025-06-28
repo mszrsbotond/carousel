@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+.container {
+	width: 300%;
+	height: 100%;
+	background-color: red;
+	display: flex;
+	align-items: center;
+	transform: translateX(-0%);
+}
+
+#m1,
+#m2,
+#m3 {
+	height: 700px;
+	width: 33.33%;
+}
+
+.frame {
+	background-color: blue;
+	width: 50%;
+	overflow: hidden;
+}
+
+body > button{
+    height: 50px;
+    margin: 20px;
+}
